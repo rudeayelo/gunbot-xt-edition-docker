@@ -12,8 +12,6 @@ WORKDIR /gunbot
 
 COPY install.sh .
 
-#VOLUME /gunbot/gunbot-xt-edition/db.sqlite
-
 RUN ./install.sh
 
 WORKDIR /gunbot/gunbot-xt-edition
